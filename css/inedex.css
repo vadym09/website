@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+:root {
+    font-family: 'Lato', sans-serif;
+    --main-color: rgb(31, 49, 56);
+    --accent-color: rgb(239, 201, 76);
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+header {
+    background-image: url(../img/backgound.header.png);
+    background-size: cover;
+    background-position: center;
+}
+header .logo img {
+    display: block;
+    width: 20%;   
+}
+header .menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+header .menu a:hover {
+    color: var(--accent-color);
+}
